@@ -1,0 +1,200 @@
+.adminPageSection {
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.adminPageContainer {
+    text-align: center;
+    background-color: #0c3a9d;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.adminImageRow {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    margin: 30px;
+}
+
+.adminImageCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.adminImageCard:hover {
+    transform: scale(1.1);
+}
+
+.adminImageCard img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: contain;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.adminImageCard:hover img {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.adminImageCard p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.adminComponent {
+    margin-top: 30px;
+}
+
+/* Modal Design  */
+
+.loginModal {
+    width: 530px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 90%;
+}
+
+.loginModalOverlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.modalLeft {
+    background-color: #0056b3;
+    color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.modalLeft h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modalLeft p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.modalActions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.modalRight {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.modalRight h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.modalRight .formGroup {
+    margin-bottom: 20px;
+}
+
+.modalRight .formGroup label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.modalRight .formGroup input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.modalRight .password-field {
+    position: relative;
+}
+
+.modalRight .password-field input {
+    width: calc(100%);
+}
+
+.modalRight .eye-icon {
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.modalRight .loginBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: inline-block;
+    width: auto;
+}
+
+.modalRight .loginBtn:hover {
+    background-color: #0772ba;
+}
+
+.closeModalBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+    position: relative;
+    top: -4px;
+}
+
+.closeModalBtn:hover {
+    background-color: rgb(238, 5, 5);
+}
