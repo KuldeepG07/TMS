@@ -1,0 +1,41 @@
+.appliedtag {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    max-width: 50px;
+    display: inline-block;
+}
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 90px;
+    font-size: 12px;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.tag.green {
+    background-color: #28a745;
+}
+
+.tag.red {
+    background-color: #dc3545;
+}
+
+.tag.violet {
+    background-color: #c335dc;
+}
+
+.tag.grey {
+    background-color: #6c757d;
+}
+
+.tag.blue {
+    background-color: #168cf4;
+}

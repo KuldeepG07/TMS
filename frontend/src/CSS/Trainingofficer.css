@@ -1,0 +1,140 @@
+.trainingOfficerSection {
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.dashboardTitleTrainingOfficer {
+    text-align: center;
+    background-color: #0c3a9d;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.dashboardTitleTrainingOfficer h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.trainingProgramsPontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.trainingCardOfficer {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    
+}
+
+.trainingProgramsPontainer > .trainingCardOfficer {
+    flex-basis: 30%;
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+.trainingCardOfficer h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #0c3a9d;
+}
+
+.trainingCardOfficer p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.trainingCardButtons {
+    margin-top: 15px;
+}
+
+.trainingProgramPhoto {
+    width: 350px;
+    max-height: 200px;
+    min-height: 200px;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.seeDocumentsTrainingBtn {
+    background-color: #0c3a9d;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.editDeleteTrainingBtns {
+    display: flex;
+    gap: 10px;
+}
+
+.updateTrainingBtn,
+.deleteTrainingBtn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.updateTrainingBtn {
+    background-color: #28a745;
+}
+
+.deleteTrainingBtn {
+    background-color: #dc3545;
+}
+
+.addNewProgramContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.addNewProgramBtn {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addNewProgramBtn:hover {
+    background-color: #1d83f1;
+}
+
+.addNewProgramBtn:focus {
+    outline: none;
+}
+
+
+@media (max-width: 768px) {
+    .trainingCardOfficer {
+        width: 100%;
+    }
+}

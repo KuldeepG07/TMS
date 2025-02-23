@@ -1,0 +1,46 @@
+.allJobPostingsSection {
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.titleContainerAllJobs {
+    text-align: center;
+    background-color: #0c3a9d;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.titleContainerAllJobs h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.jobPostingsRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.backButtonContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.backButton {
+    background-color: #0c3a9d;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    background-color: #1148bf;
+}

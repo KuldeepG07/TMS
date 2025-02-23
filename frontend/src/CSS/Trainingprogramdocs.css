@@ -1,0 +1,96 @@
+.modalOverlayDocs {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalContainerDocs {
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.closeModalDocs {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: #333;
+}
+
+.closeModalDocs:hover {
+    color: #000;
+}
+
+.modalContentDocs {
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.documentList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0;
+}
+
+.documentItem {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+}
+
+.documentImage {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.documentImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.documentDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.documentDetails h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.documentDetails a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.documentDetails a:hover {
+    text-decoration: underline;
+}

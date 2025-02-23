@@ -1,0 +1,101 @@
+.allTrainingProgramsSection {
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.titleContainer {
+    text-align: center;
+    background-color: #0c3a9d;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.titleContainer h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.programSection {
+    margin-bottom: 40px;
+}
+
+.programSection h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.trainingProgramsRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.trainingCard {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.trainingCard:hover {
+    transform: translateY(-5px);
+}
+
+.trainingCardImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.trainingCardContent h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.enrollBtn, .seeDocumentsBtn {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.enrollBtn:hover, .seeDocumentsBtn:hover {
+    background-color: #333;
+}
+
+.backButtonContainer {
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px;
+}
+
+.backButton {
+    background-color: #0c3a9d;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.backButton:hover {
+    background-color: #1148bf;
+}
